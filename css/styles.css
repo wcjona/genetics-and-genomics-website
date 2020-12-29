@@ -1,0 +1,145 @@
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+    html {
+        scroll-behavior: smooth;
+    }
+  
+    body{
+        text-align: center;
+        background-color: #f5f4f4;
+    /* NAV BAR */
+    }
+   p {
+     font-size: 1.2rem;
+    }
+    a {
+        font-weight:400;
+    }
+    img {
+        height: 300px;
+    }
+    .bg-navbar {
+        background-color: #94b4a4;
+        color:white;
+    }
+    .bg-custom {
+        background-color: #94b4a4; 
+        color: white;
+    }
+    /* PROMO */
+    #promo {
+        margin-top: 2%;
+    }
+    #promo-carousel {
+        height: 400px;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .promo-text{
+        margin-top: 5%;
+    }
+    .carousel-item{
+        padding: 3% 10%;
+    }
+    .promo-text {
+        text-align: center;
+    }
+    #promo .btn:hover {
+        color: white; 
+    }
+    @media (max-width:990px){
+        #promo-carousel {
+            height: 600px;
+        }
+        #promo img {
+            height: 250px;
+            margin-top: 5%;
+        }
+        .promo-text{
+            margin-top: 10%;
+        }
+    }
+
+    #intro, #about{
+        padding: 5% 7%;
+    }
+    /* INTRO */
+    .intro-photo {
+        margin-top: 2%;
+        border-radius: 100%;
+    }
+    /* ABOUT */
+    .team-member {
+        padding: 5% 7%;
+        text-align: left;
+    }
+    .team-member-text {
+        margin-top: 5%;
+    }
+    /* TEAM  */
+    #team {
+        padding: 5% 7%;
+    }
+    /* contact */
+    #contact {
+        padding: 8% 2%;
+        padding-top: 5%;
+    }
+      .contact-icons {
+        font-size: 3rem;
+    }
+    .fa-3x{
+        color: black;
+        margin: 10px;
+    }
+    #contact .card-deck{
+        margin-top: 6%;
+    }
+    #contact .card-header {
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+    /* footer */
+    .footer{
+        padding: 2%;
+    }
+    .copyright {
+        font-size: small;
+    }
+    .colored-text {
+        color: #94b4a4;
+    }
+    /* Blog */
+    #blog {
+        padding:5% 1%;
+    }
+    #blog div {
+        text-align: left;
+    }
+    #blog .card {
+        margin-bottom: 2%;
+
+    }
+    .btn-custom {
+        background-color: #94b4a4;
+        color: white;
+    }
+    .btn-custom:hover {
+        color: grey;
+    } 
+    .blog-photo {
+        top: 50%;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #blog p {
+        font-size: 1rem;
+    }
