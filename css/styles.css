@@ -86,6 +86,9 @@ body
     #team {
         padding: 5% 7%;
     }
+    .team-photo {
+        height: 300px;
+    }
     /* contact */
     #contact {
         padding: 8% 2%;
